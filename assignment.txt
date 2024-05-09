@@ -1,0 +1,35 @@
+Owner@Victus017 MINGW64 /d/raaz/RegEX pyhton django
+$ linux\ assignment/
+bash: linux assignment/: Is a directory
+
+Owner@Victus017 MINGW64 /d/raaz/RegEX pyhton django
+$ cd linux\ assignment/
+
+Owner@Victus017 MINGW64 /d/raaz/RegEX pyhton django/linux assignment
+$ mkdir regex
+
+Owner@Victus017 MINGW64 /d/raaz/RegEX pyhton django/linux assignment
+$ chmod g+rwx regex/
+
+Owner@Victus017 MINGW64 /d/raaz/RegEX pyhton django/linux assignment
+$ cd regex
+
+Owner@Victus017 MINGW64 /d/raaz/RegEX pyhton django/linux assignment/regex
+$ chmod go-w aditya.txt
+chmod: cannot access 'aditya.txt': No such file or directory
+
+Owner@Victus017 MINGW64 /d/raaz/RegEX pyhton django/linux assignment/regex
+$ touch aditya.txt aman.txt
+
+Owner@Victus017 MINGW64 /d/raaz/RegEX pyhton django/linux assignment/regex
+$ chmod go-w aditya.txt
+
+Owner@Victus017 MINGW64 /d/raaz/RegEX pyhton django/linux assignment/regex
+$ chmod go-w aman.txt
+
+Owner@Victus017 MINGW64 /d/raaz/RegEX pyhton django/linux assignment/regex
+$ ls -lh
+total 0
+-rw-r--r-- 1 Owner 197609 0 May  9 22:30 aditya.txt
+-rw-r--r-- 1 Owner 197609 0 May  9 22:30 aman.txt
+
